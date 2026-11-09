@@ -1,0 +1,20 @@
+---
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: monitor
+spec:
+  selector:
+    matchLabels:
+      app: ola
+  template:
+    metadata:
+      labels:
+        app: ola
+    spec:
+      containers:
+        - name: cont1
+          image: shaikmustafa/cycle
+          ports:
+            - containerPort: 80
+
