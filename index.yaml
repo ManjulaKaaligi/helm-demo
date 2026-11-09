@@ -3,12 +3,22 @@ entries:
   mk:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-11-09T15:44:49.249246205Z"
+    created: "2026-11-09T16:34:27.587481883Z"
+    description: A Helm chart for Kubernetes
+    digest: efd9a51bba598b74be0239f0eb56b4522b2dc98e05227dad5c902cef31c85980
+    name: mk
+    type: application
+    urls:
+    - https://manjulakaaligi.github.io/helm-demo/mk-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-11-09T16:34:27.586924599Z"
     description: A Helm chart for Kubernetes
     digest: fcecdcae203391e11d69b7341b9429faa0e1707262f31110309f75956b11b767
     name: mk
     type: application
     urls:
-    - mk-0.1.0.tgz
+    - https://manjulakaaligi.github.io/helm-demo/mk-0.1.0.tgz
     version: 0.1.0
-generated: "2026-11-09T15:44:49.247946049Z"
+generated: "2026-11-09T16:34:27.586142267Z"
